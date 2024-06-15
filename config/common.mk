@@ -204,3 +204,6 @@ PRODUCT_BOOT_JARS += \
     QPerformance \
     UxPerformance
 endif
+
+# Keys for sign
+$(call inherit-product-if-exists, vendor/rr/signing/keys.mk)
